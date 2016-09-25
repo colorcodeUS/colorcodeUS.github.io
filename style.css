@@ -50,7 +50,6 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	padding-right:0;
 }
 
-
 /* Sizes */
 
 .bloc-xl{
@@ -589,7 +588,9 @@ a[data-lightbox]:hover img{
 }
 @media (max-width: 768px)
 {
-    .container{width:100%;}
+    .container{
+			width:100%;
+		}
     .b-parallax{background-attachment:scroll;}
     .page-container, #hero-bloc{overflow-x: hidden;position: relative;} /* Prevent unwanted side scroll on mobile */
 }
